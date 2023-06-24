@@ -7,7 +7,7 @@ y utiliza tanto [mod_rewrite](https://httpd.apache.org/docs/2.4/mod/mod_rewrite.
 el tráfico a dos aplicaciones [Angular](https://angular.io/). Para funcionar detrás del Proxy Reverso, las
 aplicaciones Angular debieron ser construidas utilizando el parámetro [--base-href](https://angular.io/cli/build),
 ya que, en caso contrario, la aplicación Angular no define correctamente las URLs a ciertos recursos (este error
-fue reportado [aquí](https://github.com/angular/angular-cli/issues/4211) y [aquí](https://stackoverflow.com/q/70846104).
+fue reportado [aquí](https://github.com/angular/angular-cli/issues/4211) y [aquí](https://stackoverflow.com/q/70846104)).
 
 
 
